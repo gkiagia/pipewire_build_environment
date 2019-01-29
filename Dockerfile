@@ -26,6 +26,7 @@ RUN dnf -y install \
     libX11-devel \
     SDL2-devel \
     libva-devel \
+    bluez-libs-devel \
     sbc-devel \
     speexdsp-devel \
     ffmpeg-devel \
