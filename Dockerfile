@@ -35,6 +35,7 @@ RUN dnf -y install \
     xmltoman \
     git \
     make \
+    findutils \
     && dnf clean all
 
 CMD ["/bin/bash"]
